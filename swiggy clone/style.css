@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.firstbgimg {
+    /* position: absolute;
+    top: 0px;
+    z-index: 1; */
+    width: 100vw;
+}
+
+.nbr {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    display: inline-block;
+    width: 100vw;
+}
+
+.opton {
+    float: right;
+
+}
+
+.divthree {
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    left: 85px;
+    width: 88%;
+}
+
+.webp_coma {
+    height: 210px;
+    width: 200px;
+
+}
+
+.webp_coma2 {
+    width: 120px;
+    height: 150px;
+
+}
+
+.ptstp {
+    padding-left: 60px;
+    padding-top: 100px;
+}
+
+.h-220 {
+    height: 220px;
+}
+
+
+
+
+.searchbar {
+    text-align: center;
+}
+
+.zomato_heading {
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.input_item {
+    padding-left: 259px;
+    width: 78%;
+    height: 50px;
+}
+
+.order_online {
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.padding_bottom {
+    padding-bottom: 1px;
+    margin-bottom: 0;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.pl-25 {
+    padding-left: 25%;
+    padding-bottom: 150px;
+}
+
+.top_22 {
+    top: 20%;
+    right: 27%;
+}
+
+.padding_left {
+    padding-left: 20%;
+    margin-top: 10%;
+}
+
+.bg-pink {
+    background: rgb(239, 140, 140);
+}
+
+.bg-skyblue {
+    background: rgb(123, 123, 230);
+}
+
+.pl-20 {
+    padding-left: 20%;
+}
+
+.carousel-control-next {
+    right: -42px;
+}
+
+.carousel-control-prev {
+    left: -44px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    padding: 0;
+    color: #0c0c0c;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background: #0c0b0b;
+    border-radius: 50%;
+    color: #000 !important;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.bgtrans {
+    background-color: transparent;
+}
+
+.firstpara {
+    color: #ffff;
+    margin-bottom: 30px;
+}
+
+.firstdiv {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.lkmk {
+
+    font-size: x-large;
+
+}
+
+.jkil {
+    border-radius: 10px;
+
+    background: #ffff;
+}
+
+.jkil h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.jkil p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.jkil .row .col-6 ul {
+    margin-left: 18px;
+    font-size: 19px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.jkil .row .col-6 ul li {
+    padding-top: 20px;
+}
+
+.specialdiv {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(243, 190, 190);
+}
+
+.seconddiv {
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.gjggfjhg {
+    display: grid;
+    place-items: center;
+}
+
+.rowkk {
+    width: 60vw;
+}
+
+.bghjdj {
+    display: flex;
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 19vw;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.bghjdk {
+    display: flex;
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 19vw;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.bghjdl {
+    display: flex;
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 19vw;
+    height: 100px;
+    padding-top: 20px;
+}
+
+
+
+
+
+@media (max-width:992px) {
+    .top_22 {
+        top: 20%;
+        right: 20%;
+    }
+
+    .lheaderimg {
+        height: 420px;
+        width: 100%;
+    }
+
+    .jhjkh {
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    .refgt {
+        display: none;
+    }
+
+    .top_22 {
+        top: 13%;
+        right: 14%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .jnkj {
+        display: none;
+    }
+
+    .hkjkj {
+        display: none;
+    }
+
+}
